@@ -1,6 +1,7 @@
 # Use ImageMagick and Ghostscript in AWS Lambda
 
-**Runtime:** Python 3.8
+**Runtime:** Python 3.8<br/>
+**TL;DR:** Download the ZIP [here](lambda-layer.zip) and skip to step 14.
 
 My use-case was to convert pages in a PDF to PNG via `wand`. I followed the instructions provided by @chaddjohnson at https://gist.github.com/bensie/56f51bc33d4a55e2fc9a#gistcomment-3133859 but was getting errors. Following are the instructions on how I was able to resolve those:
 1. Start an EC2 instance and SSH into it. I used the AMI `amzn2-ami-hvm-2.0.20210126.0-x86_64-gp2`.
